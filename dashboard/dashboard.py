@@ -12,7 +12,10 @@ sns.set(style='dark')
 # ==============================================================================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("main_data.csv")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(BASE_DIR, "main_data.csv")
+    
+    df = pd.read_csv(file_path)
     
     # Casting datetime columns
     datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date"]
@@ -22,6 +25,7 @@ def load_data():
     # Sort by date
     df.sort_values(by="order_purchase_timestamp", inplace=True)
     df.reset_index(drop=True, inplace=True)
+    
     return df
 
 all_df = load_data()
