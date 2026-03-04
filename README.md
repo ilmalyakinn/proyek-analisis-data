@@ -32,11 +32,11 @@
 
 ## Deskripsi Tugas
 
-Dashboard ini dibuat sebagai bagian akhir proyek analisa E-Commerce Public Dataset.
+Dashboard ini dibuat sebagai bagian akhir proyek Belajar Fundamental Analisis Data
 
 ### Pertanyaan Bisnis yang Dijawab
 
-- Pertanyaan 1: Kategori produk mana yang memiliki jumlah penjualan tertinggi? Bagaimana distribusi pendapatan berdasarkan harga?
+- Pertanyaan 1: Kategori produk mana yang memiliki jumlah penjualan tertinggi, dan bagaimana distribusi revenue berdasarkan rentang harga produk?
 - Pertanyaan 2: Berapa rata-rata pengeluaran pelanggan?
 - Pertanyaan 3: State mana yang memiliki jumlah pembeli terbanyak?
 
